@@ -1,0 +1,91 @@
+.subjectHeader {
+  color: yellow;
+  font-family: sans-serif;
+}
+
+thead {
+  font-weight: bold;
+  color: orange;
+}
+
+table, th, td {
+  border: 1px solid;
+  text-align: center;
+}
+
+ul {
+  list-style-type: square;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  background-color: pink;
+  text-decoration: none;
+}
+
+blockquote {
+  color: white;
+  background-color: purple;
+}
+
+li:first-child ul {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+}
+
+li:last-child ul {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+}
+
+.u {
+  opacity: .25;
+}
+
+li>img {
+  display: none;
+}
+
+form>ul {
+  list-style-type: none;
+}
+
+ol>li:first-child {
+  font-weight: bold;
+}
+
+td
+{
+  background-color: lime;
+}
+
+td + td
+{
+  background-color: lightblue;
+}
+
+td + td + td
+{
+  background-color: lime;
+}
+
+td + td + td + td
+{
+  background-color: lightblue;
+}
+
+td + td + td + td + td
+{
+  background-color: lime;
+}
+
+td + td + td + td + td + td
+{
+  background-color: lightblue;
+
+}
